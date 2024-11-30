@@ -1,7 +1,6 @@
 # NIST-CSF
-I recently worked as a freelancer on a project. 
 
-The organization experienced a DDoS attack, which compromised the internal network. During the attack the organization’s network services suddenly stopped responding due to an incoming flood of ICMP packets. Normal internal network traffic could not access any network resources. As the incident management team, we responded by blocking incoming ICMP packets, stopping all non-critical network services offline, and restoring critical network services. 
+An organization experienced a DDoS attack, which compromised the internal network. During the attack the organization’s network services suddenly stopped responding due to an incoming flood of ICMP packets. Normal internal network traffic could not access any network resources. As the incident management team, we responded by blocking incoming ICMP packets, stopping all non-critical network services offline, and restoring critical network services. 
 
 We then investigated the security event. We found that a malicious actor had sent a flood of ICMP pings into the company’s network through an unconfigured firewall. This vulnerability allowed the malicious attacker to overwhelm the company’s network through a distributed denial of service (DDoS) attack. 
 
